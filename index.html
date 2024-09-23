@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Servicio Técnico Informático Profesional</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 5px solid #007BFF; /* Cambiado a azul */
+        }
+        .header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .header p {
+            font-size: 1.2em;
+        }
+        .service-section, .why-us {
+            background-color: white;
+            padding: 40px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .service-section h2, .why-us h2 {
+            color: #003366;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .service-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-section li {
+            padding: 10px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .service-section li:last-child {
+            border-bottom: none;
+        }
+        .service-section li span {
+            float: right;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .why-us p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .why-us .reasons {
+            display: flex;
+            justify-content: space-around;
+        }
+        .why-us .reason {
+            text-align: center;
+        }
+        .why-us .reason i {
+            font-size: 2.5em;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        .contact-section {
+            background-color: #003366;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact-section h3 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        .contact-section p {
+            font-size: 1.2em;
+        }
+        .contact-section a {
+            color: #25D366; /* Color de WhatsApp */
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+        .program-icons {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .program-icons i {
+            font-size: 50px;
+            margin: 15px;
+            color: #003366;
+            transition: transform 0.3s;
+        }
+        .program-icons i:hover {
+            transform: scale(1.2);
+            color: #28a745;
+        }
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+            border-top: 3px solid #007BFF; /* Cambiado a azul */
+        }
+        .contact-section .social-icons a {
+            margin: 0 10px;
+            color: #007BFF; /* Cambiado a azul */
+            font-size: 2em;
+        }
+        .payment-info .payment-icons i {
+            font-size: 40px;
+            margin: 0 10px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://via.placeholder.com/80" alt="Logo de Servicio Técnico">
+        <h1>SERVICIO TÉCNICO INFORMÁTICO PROFESIONAL</h1>
+        <p>Tu solución experta para computadoras y laptops</p>
+    </header>
+
+    <!-- Sección Por qué Elegirnos -->
+    <section class="why-us">
+        <div class="container">
+            <h2>¿Por qué Elegirnos?</h2>
+            <div class="reasons">
+                <div class="reason">
+                    <i class="fas fa-cogs"></i>
+                    <p>Técnico certificado con experiencia y pronto ingeniero</p>
+                </div>
+                <div class="reason">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Garantía de 2 meses en todos los servicios</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="service-section">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li><strong>Formateo e Instalación de Windows</strong> <span>$350</span><br>Formateo completo e instalación de Windows actualizado con todos los controladores esenciales.</li>
+                <li><strong>Instalación de Office 365</strong> <span>$300</span><br>Instalación del paquete completo de Office 365 con licencia.</li>
+                <li><strong>Instalación de AutoCAD</strong> <span>$400</span><br>Instalación y configuración para diseño y modelado.</li>
+                <li><strong>Instalación de SolidWorks</strong> <span>$300</span><br>Instalación de software de diseño para ingeniería.</li>
+                <li><strong>Instalación de Photoshop</strong> <span>$300</span><br>Software de edición y creación de imágenes profesionales.</li>
+                <li><strong>Instalación de Adobe Premiere</strong> <span>$300</span><br>Edición de videos con herramientas profesionales.</li>
+                <li><strong>Instalación de Adobe Illustrator</strong> <span>$350</span><br>Creación de gráficos vectoriales y diseños.</li>
+                <li><strong>Mantenimiento de Software</strong> <span>$250</span><br>Limpieza y optimización de programas.</li>
+                <li><strong>Mantenimiento de Hardware</strong> <span>$300 + Pasta</span><br>Limpieza interna, cambio de pasta térmica.</li>
+                <li><strong>Instalación de Windows + Office</strong> <span>$500</span><br>Instalación combinada de Windows y Office.</li>
+                <li><strong>Otros programas bajo pedido</strong> <span>Pregunte</span><br>Instalamos cualquier otro software necesario.</li>
+            </ul>
+        </section>
+
+        <!-- Íconos de programas -->
+        <div class="program-icons">
+            <i class="fab fa-microsoft"></i>
+            <i class="fas fa-drafting-compass"></i>
+            <i class="fas fa-tools"></i>
+            <i class="fab fa-adobe"></i>
+            <i class="fab fa-adobe"></i>
+        </div>
+    </div>
+
+    <!-- Sección de contacto -->
+    <section class="contact-section">
+        <h3>Contacto</h3>
+        <p>¿Tienes alguna duda o necesitas cotización? Envíanos un mensaje por WhatsApp:</p>
+        <a href="https://wa.me/5218123292430" target="_blank"><i class="fab fa-whatsapp"></i> 8123292430</a>
+        <div class="payment-info mt-4">
+            <h4>Formas de Pago</h4>
+            <p>Transferencia, efectivo y terminal con costo adicional.</p>
+            <p>Aceptamos Mercado Pago y Apple Pay.</p>
+            <div class="payment-icons">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-apple-pay"></i>
+                <i class="far fa-handshake mercado-pago-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Servicio Técnico Informático Profesional. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
